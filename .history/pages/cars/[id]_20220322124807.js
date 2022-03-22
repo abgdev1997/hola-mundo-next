@@ -10,7 +10,7 @@ function Car({car}) {
     return (
         <div className={styles.container}>
             <Head>
-                <title>{car?.color} {car?.id}</title>
+                <title>{car.color} {car.id}</title>
             </Head>
 
             <main className={styles.main}>
@@ -18,7 +18,7 @@ function Car({car}) {
                     {id}
                 </h1>
 
-                <img src={car?.image} width="300px" />
+                <img src={car.image} width="300px" />
 
             </main>
         </div>
